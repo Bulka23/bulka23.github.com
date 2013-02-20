@@ -1,0 +1,127 @@
+html, body{
+margin:0;
+padding:0;
+font-family: "Bookman Old Style", "Courier New", "Times New Roman";
+font-size: 14pt;
+text-align: justify;
+background: #ff9966;
+border-color: #00cc99;
+color:#cc3333 ;
+
+
+}
+
+#header, #footer {
+    height: 50px;
+}
+
+
+#content {
+    border: 3px solid #ff6666; 
+    height: auto;
+    margin: 0px auto;
+    width: 900px; 
+    background-color: #ffcc99;
+}
+
+
+#FIO, #study,#learning,#my_works, #www {
+   width: 880px;  
+   padding: 10px; 
+}
+
+
+#FIO h1{
+    color: #ff6666;
+    text-shadow: #cc3333 1mm 1mm 1px;
+    margin-left: 20px; 
+}
+
+
+#FIO h3{
+    color: #ff6666;
+    font-style: oblique;
+    text-align: right;
+    text-shadow: #cc3333 2px 2px 1px;
+}
+
+#study h3 {
+    color: #ff6666;
+    text-shadow: #cc3333 2px 2px 1px;
+    margin-left: 20px; 
+}
+
+#study {
+    position: relative;
+    border-bottom: 2px dotted #ff6666;
+}
+
+#study img {
+    float: left;
+    margin:  15px 15px 0 0;
+}
+
+
+#learning {
+    
+}
+
+#books {
+    float: left;  
+    width: 500px;    
+}
+
+#books h3 {
+    color: #ff6666;
+    text-shadow: #cc3333 2px 2px 1px;
+    margin-left: 20px;
+}
+
+#books li{
+    list-style-type: square;
+    margin:10px 30px 10px 0;  
+}
+
+#knowlege {
+    float: left;
+    width: 358px; 
+    border-left: 2px dotted #ff6666;
+    padding: 10px;
+}
+
+
+#my_works{
+    border-top: 2px dotted #ff6666;
+    width: 880px; 
+    padding: 10px;
+     
+}
+
+#my_works img {
+   border: 2px solid #ff6666;
+}
+
+
+.clear { clear: both; }
+ 
+ 
+#www{
+    position: relative;
+    border-top: 2px dotted #ff6666;
+}
+
+#english {
+    float: left;
+    width: 300px; 
+    padding: 10px;
+    border-right: 2px dotted #ff6666;
+}
+
+
+#web {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 546px;
+    padding: 10px; 
+}
